@@ -1,0 +1,33 @@
+.results {
+    display: flex;
+}
+
+.ais-RefinementList {
+    min-width: 15%;
+}
+
+.ais-Hits {
+    min-width: 85%;
+}
+
+.ais-Hits-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ais-Hits-item {
+    width: 33%;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
