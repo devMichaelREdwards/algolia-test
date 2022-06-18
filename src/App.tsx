@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import algoliasearch from "algoliasearch/lite";
+import {headerConvert} from './helpers/textFuntions';
 import {
   Configure,
   Highlight,
@@ -47,7 +48,7 @@ interface IAttributeName {
 
 const CheckboxList = ({ attribute }: IAttributeName) => (
     <div className="checkbox-list">
-        <div className="header">{attribute}</div>
+        <div className="header">{headerConvert(attribute)}</div>
         <RefinementList attribute={attribute} />
     </div>
 );
