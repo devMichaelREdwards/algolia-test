@@ -1,5 +1,10 @@
+ body {
+    background-color: #00A0C0;
+ }
+
 .results {
     display: flex;
+    top: 5%;
 }
 
 .ais-RefinementList {
@@ -10,16 +15,60 @@
     min-width: 85%;
 }
 
+.results {
+    top: 5%;
+    width: 75%;
+}
+
 .ais-Hits-list {
     display: flex;
     flex-wrap: wrap;
 }
 
 .ais-Hits-item {
-    width: 33%;
+    width: 32%;
+    margin: .3%;
+
+    div {
+        width: 100%;
+    }
 }
 
+.hit-name {
+    img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+}
 
+.ais-SearchBox {
+    position: fixed;
+    width: 100%;
+}
+
+.ais-Hits {
+    top: 5%;
+}
+
+.filler {
+    height: 4vh;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.checkbox-list {
+    .header {
+        text-align: center;
+    }
+}
+
+.filters {
+    width: 25%;
+    float: left;
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
